@@ -1,0 +1,30 @@
+apiVersion: skaffold/v4beta11
+kind: Config
+metadata:
+  name: doxo
+build:
+  local:
+    push: false
+  artifacts:
+    - image: naseemahmad244/doxo-auth
+      context: auth
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: 'src/*'
+    - image: naseemahmad244/doxo-client
+      context: client
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: 'src/*'
+manifests:
+  rawYaml:
+    - infra/auth-depl.yaml
+    - infra/client-depl.yaml
+    - infra/ingress-serv.yaml
+    - infra/nats-depl.yaml

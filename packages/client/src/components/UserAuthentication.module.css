@@ -1,0 +1,55 @@
+.authForm{
+    margin: auto;
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.topButtonsContainer button{
+    width: 50%;
+}
+
+.dialogForm{
+    text-align: right;
+}
+
+.dialogFormSpan{
+    display: inline-block;
+    margin-left:8px;
+}
+
+/* .signupSelector, .loginSelector{
+    width: 50%;
+} */
+
+
+
+.email, .password{
+    margin: 16px 0px;
+}
+
+
+
+
+
+.validEmailInput, .validPasswordInput{
+    border: 1px solid rgb(149, 237, 149);
+}
+
+.validEmailInput:focus, .validPasswordInput:focus{
+    background-color: rgb(149, 237, 149);
+}
+
+.passwordError{
+    font-size: 12px;
+}
+
+.form{
+    text-align: end;
+}
+
+.formCancelBtn{
+    margin-right: 8px;
+}
+
+

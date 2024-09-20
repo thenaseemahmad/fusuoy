@@ -1,0 +1,20 @@
+.steps {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+
+.step{
+    margin: 8px 0px;
+    border:1px rgb(208, 208, 208) solid;
+    padding: 4px;
+    border-radius: 8px;
+      
+}
+
+.icon, .title{
+  display: inline-block;
+  vertical-align:middle;
+  margin: 0px 8px;
+}
+

@@ -1,0 +1,45 @@
+
+.brand{
+    font-size: 30px;
+    margin: 0px auto 0px 0px;
+  }
+  
+.brand a{
+    color: #1A3636;;
+    font-weight: 500;
+    font-size:x-large;
+  }
+  
+a{
+    text-decoration: none;
+  }
+  
+.brand, .nav-items{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+.nav-items{
+    display: inline-block;
+    margin:0;
+    padding:0;
+    width: calc(100% - 60px);
+    text-align: end;
+  }
+  
+.nav-item{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    font-weight: 480;
+    font-size: 13px;
+  }
+  
+.nav-item a{
+    color:#40534C;
+  }
+  
+.button{
+    height: 22px;
+    width: 75px;
+  }

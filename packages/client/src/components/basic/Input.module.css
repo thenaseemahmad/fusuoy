@@ -1,0 +1,26 @@
+.container{
+    padding: 8px 0px;
+}
+
+label, input{
+    display:block;
+    width: 100%;
+}
+
+label{
+    font-size: 14px;
+}
+
+input{
+    font-size: 14px;
+    padding: 4px;
+    border: 1px solid red;
+}
+
+input:focus{
+    background-color: rgb(255, 92, 47);
+}
+
+p{
+    font-size: 10px;
+}

@@ -1,0 +1,21 @@
+.footer{
+    text-align: center;
+    background: rgb(53, 46, 46);
+    padding: 32px 0px;
+}
+
+.footerOptions{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerOption{
+    display: inline-block;
+    margin: 4px 8px;
+}
+
+.footerOption a{
+    color: aliceblue;
+    font-size: 13px;
+}

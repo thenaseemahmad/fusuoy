@@ -1,0 +1,53 @@
+.mainHeader {
+  background: white;
+  padding: 8px 16px;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  /* position: fixed; */
+}
+
+.introSection{
+  padding: 32px 120px;
+}
+
+.intro{  
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.howItWorks{
+  background: rgb(225, 225, 225);
+  text-align: center;
+  padding: 32px;
+}
+
+.howItWorksTitle{
+  margin-bottom: 24px;
+}
+
+.workingSteps{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex: 1 1 0;
+}
+
+.previewImg{
+  flex: 1 1 0;
+  width: 200px;
+}
+
+.pricing{
+  text-align: center;
+  padding: 32px;
+}
+.pricingTitle{
+  margin-bottom: 24px;
+}
+
+.plan{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
